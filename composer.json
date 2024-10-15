@@ -49,7 +49,7 @@
         "ext-xmlreader": "*",
         "ext-xmlwriter": "*",
         "kigkonsult/dsigsdk": "1.0",
-        "kigkonsult/loggerdepot": "<1.4",
+        "kigkonsult/loggerdepot": "v1.1",
         "psr/log": "^1.1.0"
     },
     "require-dev": {
