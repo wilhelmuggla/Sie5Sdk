@@ -48,7 +48,7 @@
         "ext-simplexml": "*",
         "ext-xmlreader": "*",
         "ext-xmlwriter": "*",
-        "kigkonsult/dsigsdk": "1.0",
+        "kigkonsult/dsigsdk": "dev-master",
         "kigkonsult/loggerdepot": "v1.1",
         "psr/log": "^1.1.0"
     },
@@ -63,5 +63,11 @@
     "scripts": {
         "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility",
         "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wilhelmuggla/dsigsdk.git"
+        }
+    ]
 }
