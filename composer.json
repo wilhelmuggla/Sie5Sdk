@@ -54,9 +54,9 @@
         "ext-simplexml": "*",
         "ext-xmlreader": "*",
         "ext-xmlwriter": "*",
-        "kigkonsult/dsigsdk": "v1.0.1.x-dev",
         "kigkonsult/loggerdepot": "v1.1",
-        "psr/log": "^1.1.0"
+        "psr/log": "^1.1.0",
+        "kigkonsult/dsigsdk": "v1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.1.0",
